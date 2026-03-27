@@ -1,0 +1,157 @@
+/* Background gradient */
+.background {
+  background: linear-gradient(135deg, #35063e 10%, #000000 100%);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Center content */
+.container {
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+  align-items: center;
+}
+
+/* Logo styling */
+.logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+/* Tagline text */
+.tagline {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+/* Button styling */
+.cta {
+  background: #c504ec;
+  border: none;
+  padding: 14px 28px;
+  font-size: 20px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.cta:hover {
+  background: #e20aff;
+  transform: scale(1.05);
+}
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  right: 80px;
+  left: 30px;
+  gap: 20px;
+  color: white;
+}
+
+.button {
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+    font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+}
+
+.login {
+  border: none;
+  padding: 10px 20px;
+  opacity: 60%;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  background-color: rgb(151, 144, 144);
+  align-items: center;
+}
+
+.buttons{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    gap: 10px;
+}
+
+.buttons.cta:hover{
+  background-color: #c504ec;
+  cursor: no-drop;
+}
+
+.button{
+  font-family: 'Inter', sans-serif;
+  border-radius: 2pc;
+}
+
+.profile {
+
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+}
+
+.home{
+  top: 100%;
+  
+}
+
+.abc{
+  text-decoration: none;
+}
+
+.abc.cta:hover{
+  cursor: no-drop
+
+}
+
+body{
+  background:linear-gradient(135deg, #35063e 10%, #000000 100%);
+  align-items: center;
+}
+
+.forma{
+  opacity: 60%;
+  background-color: rgb(155, 144, 144);
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+}
+
+.loginab{
+  background-color: rgb(155, 144, 144);
+  opacity: 60%;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.horizontal-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.horizontal-form input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.horizontal-form button {
+    padding: 10px 20px;
+}
+
+.imgabc{
+  top: 20%;
+}
